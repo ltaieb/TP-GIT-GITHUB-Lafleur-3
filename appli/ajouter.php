@@ -18,6 +18,7 @@ if (count($_POST)==0)
 }
 else
 {
+// Ligne de commande supplémentaire
   $etape = 2;
   $uneRef=$_POST["ref"];
   $uneDes=$_POST["des"];
